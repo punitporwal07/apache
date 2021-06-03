@@ -5,7 +5,7 @@ RUN yum -y update && yum clean all
 RUN yum -y install httpd && yum clean all
 RUN echo "<a href="https://cloudnetes.blogspot.com"><span title="cloudnetes"> \
          <img border='0' src="https://img.icons8.com/color/48/000000/money-heist-dali.png"/></span></a>" >> /var/www/html/index.html \
-         "Apache Instance 1.0 to test ECS on AWS" >> /var/www/html/index.html 
+         "Congratulations! Your application is now running on a container in Amazon ECS." >> /var/www/html/index.html 
 
 EXPOSE 80
 
